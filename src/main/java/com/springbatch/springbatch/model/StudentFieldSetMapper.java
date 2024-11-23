@@ -8,6 +8,11 @@ import org.springframework.batch.item.file.transform.FieldSet;
 
 
 
+/**
+ * Classe du FielSetMapper.
+ * Cette classe mappe les champs du fichier CSV avec les attributs d'un objet Student.
+ * 
+ */
 public class StudentFieldSetMapper implements FieldSetMapper<Student> {
 
 

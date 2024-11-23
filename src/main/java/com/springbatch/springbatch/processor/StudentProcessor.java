@@ -8,8 +8,14 @@ import com.springbatch.springbatch.model.Student;
 
 
 
+/**
+ * Classe du processeur.
+ * 
+ */
 public class StudentProcessor implements ItemProcessor<Student, Student> {
 
+
+    
     @Override
     public Student process(Student student) {
         student.setFirstName(student.getFirstName().toUpperCase());
